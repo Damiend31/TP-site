@@ -55,6 +55,7 @@ h2{
 .adresse{
 	border-radius: 15px;
 	padding: 10px 30px;
+	width: 300px;
 	border: none;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
 }
@@ -66,22 +67,21 @@ h2{
 	padding: 10px 30px;
 	border: none;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
-}
-
-.image1{
-	flex-direction: row;
+	position: absolute;
+	margin-left: -5%;
 }
 
 .imagegauche{
 	position: absolute;
-	max-width: 20%;
+	max-width: 15%;
 }
 
 .imagecentre{
-	max-width: 75%;
+	max-width: 70%;
 }
 
 .imagedroite{
 	position: absolute;
-	max-width: 20%;
+	max-width: 12%;
+	margin-left: 88.5%;
 }
