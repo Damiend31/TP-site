@@ -1,33 +1,41 @@
 body{
 	position: relative;
 	perspective: 1000px;
-	background-color: #FCC9A0;
+	background-color: white;
 	min-width: 900px;
 }
-
+a:link{
+	text-decoration: none;
+}
 .Logo{
 	height: 30px;
 	width: 77px;
 }
 
 .navbar{
-	background-color: red;
+	height: 90px;
+	margin-right: 15%;
+	margin-left: 15%;
 }
 
 .menu{
 	display: inline-block;
 	list-style: none;
+	float: right;
 }
 
 .elem_menu{
 	display: inline-block;
 	width: 100px;
 	padding: 10px;
-	background-color: white;
 	text-align: center;
-	color: black;
+	color: grey;
 }
 
 .elem_menu:hover{
 	filter: invert(100%);
+}
+
+h1{
+	text-align: center;
 }
