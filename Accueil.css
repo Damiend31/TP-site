@@ -53,11 +53,35 @@ h2{
 }
 
 .adresse{
-	border-radius: 10px;
+	border-radius: 15px;
+	padding: 10px 30px;
+	border: none;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
 }
 
 .button1{
-	border-radius: 10px;
+	border-radius: 15px;
 	background-color: #5168EC;
 	color: white;
+	padding: 10px 30px;
+	border: none;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+}
+
+.image1{
+	flex-direction: row;
+}
+
+.imagegauche{
+	position: absolute;
+	max-width: 20%;
+}
+
+.imagecentre{
+	max-width: 75%;
+}
+
+.imagedroite{
+	position: absolute;
+	max-width: 20%;
 }
