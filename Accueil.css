@@ -3,10 +3,13 @@ body{
 	perspective: 1000px;
 	background-color: white;
 	min-width: 900px;
+	font-family: apple-system,system-ui,BlinkMacSystemFont,Roboto,Arial,sans-serif;
 }
+
 a:link{
 	text-decoration: none;
 }
+
 .Logo{
 	height: 30px;
 	width: 77px;
@@ -29,13 +32,32 @@ a:link{
 	width: 100px;
 	padding: 10px;
 	text-align: center;
-	color: grey;
 }
 
-.elem_menu:hover{
-	filter: invert(100%);
+.elem_menu a{
+	color: #72727D;
+}
+
+.elem_menu a:hover{
+	color: black;
 }
 
 h1{
 	text-align: center;
+	font-size: 50px;
+}
+
+h2{
+	text-align: center;
+	color: #92929C;
+}
+
+.adresse{
+	border-radius: 10px;
+}
+
+.button1{
+	border-radius: 10px;
+	background-color: #5168EC;
+	color: white;
 }
