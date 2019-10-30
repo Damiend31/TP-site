@@ -224,22 +224,146 @@ h2{
 	max-height: 100%;
 }
 
-.textesuite{
-	display: block;
+.textesuite1{
+	display: inline-block;
 	margin-top: 50%;
 	max-width: 20%;
-	margin-left: 30%;
+	margin-left: 25%;
 }
 
-.textesuite p:nth-child(1){
+.textesuite1 p:nth-child(1){
 	font-size: 30px;
 }
 
-.textesuite p:nth-child(2){
+.textesuite1 p:nth-child(2){
 	color: #72727D;
 }
 
 .imageperso1{
-	border-radius: 15px;
+	border-radius: 60px;
 	position: absolute;
+	width: 7%;
+	margin-top: 55%;
+	margin-left: 10%;
+	z-index: 5;
+}
+
+.Caseperso1{
+	position: absolute;
+	width: 30%;
+	background-color: #F5F7FF;
+	border-radius: 15px;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+	text-align: center;
+	margin-left: 60%;
+	margin-top: -10%;
+	z-index: 3;
+}
+
+.imageperso2{
+	border-radius: 60px;
+	position: absolute;
+	width: 8%;
+	margin-top: 73%;
+	margin-left: -33%;
+	z-index: 5;
+}
+
+.Caseperso2{
+	position: absolute;
+	width: 30%;
+	background-color: #F5F7FF;
+	border-radius: 15px;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 15%;
+	z-index: 3;
+}
+
+.textesuite2{
+	display: inline-block;
+	margin-top: 5%;
+	max-width: 20%;
+	margin-left: 60%;
+}
+
+.textesuite2 p:nth-child(1){
+	font-size: 30px;
+}
+
+.textesuite2 p:nth-child(2){
+	color: #72727D;
+}
+
+.textesuite3{
+	display: inline-block;
+	margin-top: 5%;
+	max-width: 20%;
+	margin-left: 20%;
+}
+
+.textesuite3 p:nth-child(1){
+	font-size: 30px;
+}
+
+.textesuite3 p:nth-child(2){
+	color: #72727D;
+}
+
+.imageperso3{
+	border-radius: 60px;
+	position: absolute;
+	width: 8%;
+	margin-top: 10%;
+	margin-left: 15%;
+	z-index: 5;
+}
+
+.Caseperso3{
+	position: absolute;
+	width: 30%;
+	background-color: #F5F7FF;
+	border-radius: 15px;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+	text-align: center;
+	margin-top: -10%;
+	margin-left: 60%;
+	z-index: 3;
+}
+
+.inteband{
+	margin-top: 5%;
+	height: 400px;
+	background-color: #71d1dc;
+}
+
+.inteband p:nth-child(1){
+	position: absolute;
+	font-size: 15px;
+	margin-left: 30%;
+	margin-top: 10%;
+	color: white;
+}
+
+.inteband p:nth-child(2){
+	position: absolute;
+	font-size: 30px;
+	margin-top: 12%;
+	margin-left: 30%;
+	color: white;
+}
+
+.button2{
+	margin-left: 30%;
+	margin-top: 15%;
+	border-radius: 15px;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+}
+
+.inteimage{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 5%;
+	height: 10%;
 }
