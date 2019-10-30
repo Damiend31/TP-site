@@ -85,13 +85,33 @@ h2{
 	max-width: 12%;
 	margin-left: 88.5%;
 }
+/* Premiere explications*/
+
+
+.clic1{
+	position: absolute;
+	max-width: 30%;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+}
+
+.clic2{
+	position: absolute;
+	max-width: 30%;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+}
+
+.clic3{
+	position: absolute;
+	max-width: 30%;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+}
 
 .para{
 	float: right;
 }
 
 .para h3{
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .imageCarre{
@@ -99,22 +119,16 @@ h2{
 }
 
 .notes{
-	z-index: 3;
 	max-height: 40px;
 	width: 200px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
 }
-/*
-.notes:{
-	background-color: #F5F7FF;
-	max-height: 100%;
-}
-*/
+
 .imageNote{
 	float: left;
 	margin: 4px 4px 4px 4px;
-	max-width: 10%
+	max-width: 10%;
 }
 
 .notes h4{
@@ -126,14 +140,18 @@ h2{
 }
 
 .notes:active p{
-	z-index: 5;
-	display: inline-grid;
-	background-color: #F5F7FF;
-	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+	display: inline;
 }
 
+.notes:active{
+	background-color: #F5F7FF;
+	max-height: 100%;
+}
+
+.notes:active:checked .imageclic{
+	display: inline;
+}
 .wiki{
-	z-index: 2;
 	max-height: 40px;
 	width: 200px;
 	border-radius: 5px;
@@ -149,14 +167,25 @@ h2{
 .wiki h4{
 	text-align: center;
 }
-/*
+
+.wiki p{
+	display: none;
+}
+
+.wiki:active p{
+	display: inline;
+}
+
 .wiki:active{
 	background-color: #F5F7FF;
 	max-height: 100%;
 }
-*/
+
+.wiki:active .clic2{
+	z-index: 5;
+}
+
 .tasks{
-	z-index: 1;
 	max-height: 40px;
 	width: 200px;
 	border-radius: 5px;
@@ -168,12 +197,20 @@ h2{
 	margin: 4px 4px 4px 4px;
 	max-width: 10%;
 }
-/*
+
 .tasks h4{
 	text-align: center;
+}
+
+.tasks p{
+	display: none;
+}
+
+.tasks:active p{
+	display: inline;
 }
 
 .tasks:active{
 	background-color: #F5F7FF;
 	max-height: 100%;
-}*/
+}
