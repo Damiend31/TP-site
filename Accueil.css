@@ -71,6 +71,11 @@ h2{
 	margin-left: -5%;
 }
 
+.button1:hover{
+	opacity: .5;
+	cursor: pointer;
+}
+
 .imagegauche{
 	position: absolute;
 	max-width: 15%;
@@ -87,6 +92,9 @@ h2{
 }
 /* Premiere explications*/
 
+.imageclic{
+	margin-left: 10%;
+}
 .clic1{
 	z-index: 4; 
 	margin-top: 10%;
@@ -134,11 +142,16 @@ h2{
 }
 
 .imageCarre{
-	max-width: 12%;
+	border-radius: 60px;
+	width: 10%;
+	margin-top: 5%;
+	margin-left: 30%;
 }
 
 .notes{
 	width: 200px;
+	padding: 5px 10px;
+	margin: 5px 5px 5px 5px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
 }
@@ -168,6 +181,8 @@ h2{
 
 .wiki{
 	width: 200px;
+	padding: 5px 10px;
+	margin: 5px 5px 5px 5px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
 }
@@ -197,6 +212,8 @@ h2{
 
 .tasks{
 	width: 200px;
+	padding: 5px 10px;
+	margin: 5px 5px 5px 5px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
 }
@@ -223,7 +240,7 @@ h2{
 	background-color: #F5F7FF;
 	max-height: 100%;
 }
-
+/*Suite avec profile*/
 .textesuite1{
 	display: inline-block;
 	margin-top: 50%;
@@ -357,8 +374,16 @@ h2{
 .button2{
 	margin-left: 30%;
 	margin-top: 15%;
+	padding: 10px 30px;
 	border-radius: 15px;
+	border: none;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+	color: #71d1dc;
+}
+
+.button2:hover{
+	opacity: .5;
+	cursor: pointer;
 }
 
 .inteimage{
