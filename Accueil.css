@@ -85,3 +85,95 @@ h2{
 	max-width: 12%;
 	margin-left: 88.5%;
 }
+
+.para{
+	float: right;
+}
+
+.para h3{
+	font-size: 30px;
+}
+
+.imageCarre{
+	max-width: 12%;
+}
+
+.notes{
+	z-index: 3;
+	max-height: 40px;
+	width: 200px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+}
+/*
+.notes:{
+	background-color: #F5F7FF;
+	max-height: 100%;
+}
+*/
+.imageNote{
+	float: left;
+	margin: 4px 4px 4px 4px;
+	max-width: 10%
+}
+
+.notes h4{
+	text-align: center;
+}
+
+.notes p{
+	display: none;
+}
+
+.notes:active p{
+	z-index: 5;
+	display: inline-grid;
+	background-color: #F5F7FF;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+}
+
+.wiki{
+	z-index: 2;
+	max-height: 40px;
+	width: 200px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+}
+
+.imageWiki{
+	float: left;
+	margin: 4px 4px 4px 4px;
+	max-width: 10%;
+}
+
+.wiki h4{
+	text-align: center;
+}
+/*
+.wiki:active{
+	background-color: #F5F7FF;
+	max-height: 100%;
+}
+*/
+.tasks{
+	z-index: 1;
+	max-height: 40px;
+	width: 200px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+}
+
+.imageCase{
+	float: left;
+	margin: 4px 4px 4px 4px;
+	max-width: 10%;
+}
+/*
+.tasks h4{
+	text-align: center;
+}
+
+.tasks:active{
+	background-color: #F5F7FF;
+	max-height: 100%;
+}*/
