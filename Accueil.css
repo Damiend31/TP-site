@@ -87,23 +87,42 @@ h2{
 }
 /* Premiere explications*/
 
-
 .clic1{
+	z-index: 4; 
+	margin-top: 10%;
 	position: absolute;
 	max-width: 30%;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
 }
 
 .clic2{
+	z-index: 3;
+	margin-top: 5%;
 	position: absolute;
 	max-width: 30%;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
 }
 
 .clic3{
+	z-index: 2;
 	position: absolute;
 	max-width: 30%;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
+}
+
+.clic1:hover{
+	z-index: 6;
+	transform: scale(1.2);
+}
+
+.clic2:hover{
+	z-index: 6;
+	transform: scale(1.2);
+}
+
+.clic3:hover{
+	z-index: 6;
+	transform: scale(1.2);
 }
 
 .para{
@@ -119,7 +138,6 @@ h2{
 }
 
 .notes{
-	max-height: 40px;
 	width: 200px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
@@ -148,11 +166,7 @@ h2{
 	max-height: 100%;
 }
 
-.notes:active:checked .imageclic{
-	display: inline;
-}
 .wiki{
-	max-height: 40px;
 	width: 200px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
@@ -181,12 +195,7 @@ h2{
 	max-height: 100%;
 }
 
-.wiki:active .clic2{
-	z-index: 5;
-}
-
 .tasks{
-	max-height: 40px;
 	width: 200px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 40px -15px rgba(0,0,0,0.75);
@@ -213,4 +222,24 @@ h2{
 .tasks:active{
 	background-color: #F5F7FF;
 	max-height: 100%;
+}
+
+.textesuite{
+	display: block;
+	margin-top: 50%;
+	max-width: 20%;
+	margin-left: 30%;
+}
+
+.textesuite p:nth-child(1){
+	font-size: 30px;
+}
+
+.textesuite p:nth-child(2){
+	color: #72727D;
+}
+
+.imageperso1{
+	border-radius: 15px;
+	position: absolute;
 }
